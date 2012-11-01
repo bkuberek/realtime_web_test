@@ -1,0 +1,28 @@
+
+#inbox {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 1em;
+  max-height: 300px;
+  overflow: auto;
+  white-space: pre;
+}
+
+.form-row label,
+.form-row input {
+  display: inline-block;
+}
+
+#info {
+  background: #ff0000;
+  padding: 1em;
+}
+
+#info.connected {
+  background: #00ff00;
+}
+
+
+.form-row label {
+  width: 60px;
+}
