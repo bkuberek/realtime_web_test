@@ -1,0 +1,24 @@
+Source: bk-realtime-web
+Section: non-free/net
+Priority: extra
+Maintainer: Bastian Kuberek <bkuberek@gmail.com>
+Build-Depends:
+  debhelper (>= 8),
+  python-all (>= 2.6.6-3~)
+Standards-Version: 3.9.2
+X-Python-Version: >= 2.6
+Vcs-Git: git@github.com:bkuberek/realtime_web_test.git
+Vcs-browser: https://github.com/bkuberek/realtime_web_test
+Homepage:
+
+Package: bk-realtime-web
+Architecture: all
+Depends:
+  ${python:Depends},
+  python-tornado (>= 2.3),
+  python-pika (>= 0.9.5),
+  rabbitmq-server (>= 3.0.0),
+  python-memcache,
+  memcached
+Description: Analytics Web
+ Analytics Web Portal

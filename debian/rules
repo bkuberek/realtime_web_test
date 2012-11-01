@@ -1,0 +1,5 @@
+#!/usr/bin/make -f
+# -*- coding: utf-8 -*-
+
+%:
+	dh $@ --buildsystem=python_distutils --with python2
